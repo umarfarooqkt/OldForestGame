@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\Pluggins\VSCode.cs" />
+     <Compile Include="Assets\Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Assets\Scripts\Loader.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
