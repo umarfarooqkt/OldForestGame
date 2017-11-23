@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour {
 		}
 		// so if the enemy runs into the finish as in exit it will be destroyed boi
 		else if (other.tag == "Finish"){
-			GameManager.instance.removeEnemyFromScreen(); // basically by destroy i mean taek of screen
+			GameManager.Instance.removeEnemyFromScreen(); // basically by destroy i mean taek of screen
 			Destroy(gameObject);// and now destroy it
 		} 
 	}
