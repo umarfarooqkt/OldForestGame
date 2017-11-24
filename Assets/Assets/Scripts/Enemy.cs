@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-	public int target =0;
-	public Transform exitPoint;// for tthe exit from the game, hopefully player cant exit
-	public Transform[] waypoints; // this is actually the reference check points we are going to use to move our enemy
-	public float navigationUpdate; // for 
+    
+    [SerializeField]
+    private Transform exitPoint;// for tthe exit from the game, hopefully player cant exit
+    [SerializeField]
+    private Transform[] waypoints; // this is actually the reference check points we are going to use to move our enemy
+    [SerializeField]
+    private float navigationUpdate; // for 
 
-	private Transform enemy; // gonna be the enemys movement
+    private int target = 0;
+    private Transform enemy; // gonna be the enemys movement
 	private float navigationTime = 0; 
 	// Use this for initialization
 	void Start () {

@@ -5,11 +5,18 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager> {
 
     /// initializing some game objects
-    public GameObject spawnPoint;
-    public GameObject[] enemies;
-    public int MaxEnemiesOnScreen;
-    public int totalEnemies;
-    public int enemiesPerspawn;
+    /// make sure the attributes are private so in unity we can use a serialized field 
+    /// to access private attributes and now they are just private to other classes which will use getters to access them 
+    [SerializeField]
+    private GameObject spawnPoint;
+    [SerializeField]
+    private GameObject[] enemies;
+    [SerializeField]
+    private int MaxEnemiesOnScreen;
+    [SerializeField]
+    private int totalEnemies;
+    [SerializeField]
+    private int enemiesPerspawn;
 
     private int enemiesOnScreen = 0;
     const float spawndelay = 0.8f; // every 0.5 secs spawn enemy 

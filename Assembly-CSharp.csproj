@@ -54,6 +54,8 @@
      <Compile Include="Assets\Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Assets\Scripts\Loader.cs" />
      <Compile Include="Assets\Assets\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Assets\Scripts\Towers\TowerButton.cs" />
+     <Compile Include="Assets\Assets\Scripts\Towers\TowerManagerScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
