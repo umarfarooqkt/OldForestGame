@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{13ED99A6-D1E3-6493-14AB-4F09A7E42D8C}</ProjectGuid>
+    <ProjectGuid>{97563A19-C3BA-7BA6-1610-B28985748D79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,9 +53,11 @@
      <Compile Include="Assets\Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Assets\Scripts\Loader.cs" />
+     <Compile Include="Assets\Assets\Scripts\Projectiles.cs" />
      <Compile Include="Assets\Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Assets\Scripts\Towers\TowerButton.cs" />
      <Compile Include="Assets\Assets\Scripts\Towers\TowerManagerScript.cs" />
+     <Compile Include="Assets\Assets\Scripts\Towers\tower.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
